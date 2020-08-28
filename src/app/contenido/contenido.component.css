@@ -1,0 +1,15 @@
+.container {
+  background-color: #FFEFE7;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 8px;
+  padding: 16px;
+  border-radius: 4px;
+}
+.contenido {
+  margin-bottom: 30px;
+}
+.card {
+  display:inline-block;
+  width: 21.5em;
+  margin:0 auto
+}

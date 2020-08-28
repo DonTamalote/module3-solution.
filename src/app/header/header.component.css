@@ -1,0 +1,53 @@
+/* Primera barra con el logo y posibles iconos */
+.navbar-logo {
+  background-color: #FBE1A4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.iconos-redes {
+  float: left;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.fa {
+  margin-left: 10px;
+}
+
+/* Fin primera barra con logo*/
+
+/* Menu */
+.navbar-light {
+  background-color: #FBE1A4;
+}
+.img-responsive {
+  width: 180px;
+  height: 180px;
+}
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar-brand {
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+ul{
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  /* AÑADIMOS */
+  position: relative;
+  left: 50%;
+}
+li{
+  float: left;
+  /* AÑADIMOS */
+  position: relative;
+  right: 50%;
+}
+/* Fin Menu */
